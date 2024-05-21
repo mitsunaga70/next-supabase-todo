@@ -13,17 +13,17 @@ export type Database = {
         Row: {
           id: number
           text: string | null
-          update_at: string
+          updated_at: string
         }
         Insert: {
           id?: number
           text?: string | null
-          update_at?: string
+          updated_at?: string
         }
         Update: {
           id?: number
           text?: string | null
-          update_at?: string
+          updated_at?: string
         }
         Relationships: []
       }
